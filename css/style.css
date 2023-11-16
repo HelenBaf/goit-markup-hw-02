@@ -1,9 +1,9 @@
 .link{
     text-decoration: none;
 }
-.menu{
-    list-style-type: none;
-    font-style: normal;
+li{
+    list-style-type:none;
+    font-style:normal;
 }
 
 
@@ -25,7 +25,7 @@ body{
     text-transform: uppercase ;
     color: #4d5ae5;
 }
-.span.color{
+span{
     color: #2e2f42;
 
 }

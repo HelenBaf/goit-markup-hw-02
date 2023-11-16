@@ -10,7 +10,8 @@
 .button{
     cursor: pointer;
 }
-.body{
+
+body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#FFFFFF
@@ -95,7 +96,7 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.h3{
+h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -105,7 +106,7 @@
 
 
 }
-.p{
+p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -125,14 +126,14 @@
     color: #2e2f42;
 
 }
-.p{
+p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing:0.02em;
     color: #434455;
 }
 
-.h3{
+h3{
     font-weight: 500;
     font-size: 1.2;
     letter-spacing: 0.02em;

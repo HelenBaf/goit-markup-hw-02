@@ -38,9 +38,9 @@ img{
     overflow: hidden;
 }
 .container{
- border-bottom-width: 1px;
- border-bottom-style:solid ;
- border-bottom-color: #e7e9fc;
+ width:1158px;
+ margin:auto;
+ padding:0 15px 0 15px;
     
 }
 
@@ -69,12 +69,7 @@ span{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container{
-    border-bottom-width:  1px;
-    border-bottom-style: solid;
-    border-bottom-color: #e7e9fc;
 
-}
 .heder-div{
     display: flex;
     width: 1158px;
@@ -158,6 +153,7 @@ span{
     height: 56px;
     border: none;
     background-color: #4d5ae5;
+    border-radius: 4px;
 
 }
 .button-main:hover{
@@ -229,8 +225,8 @@ p{
 }
 .time-punkt{
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
-    border-radius: 0px 0px 4px 4px;
+    flex-basis:calc((100%-72px)/4);
+   
 }
 
 .team-div{

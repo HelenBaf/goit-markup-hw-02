@@ -71,6 +71,7 @@ span{
     border-bottom: 1px;
     border-bottom-style: solid;
     border-bottom-color: #e7e9fc;
+    margin:0 auto;
 
 }
 
@@ -179,7 +180,7 @@ span{
     margin-right: 24px;
 }
 .benefits-li{
-    width: calc(342px);
+    width:342px;
 }
 
 .benefits{
@@ -230,7 +231,7 @@ p{
 }
 .time-punkt{
     background-color: #FFFFFF;
-    width:calc(342px);
+    width:342px;
     border-radius: 0px 0px 4px 4px;
    
 }
@@ -302,7 +303,7 @@ h3{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom:8px;
+    margin-bottom:72px;
    
 
 
@@ -315,7 +316,7 @@ h3{
 
 }
 .portfolio-punkt{
-    width: calc(1084 px);  
+    width:1084;  
     padding-top: 32px;
     padding-right: 16px;
     padding-bottom: 32px;

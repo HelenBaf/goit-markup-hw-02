@@ -78,7 +78,7 @@ span{
 .heder-div{
     display: flex;
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     border-bottom: 1px solid #e7e9fc;
@@ -179,8 +179,10 @@ span{
     gap: 24px;
     margin-right: 24px;
 }
-.benefits-li{
+li{
+    background-color: #FFFFFF;
     width:342px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .benefits{
@@ -228,12 +230,6 @@ p{
     display: flex;
     gap: 24px;
     margin-right: 24px;
-}
-.time-punkt{
-    background-color: #FFFFFF;
-    width:342px;
-    border-radius: 0px 0px 4px 4px;
-   
 }
 
 .team-div{
@@ -297,6 +293,7 @@ h3{
 }
 .title-portfolio-max{
     margin-bottom: 72px;
+    text-align: center;
 }
 .title-portfolio{
     font-size: 20px;
@@ -317,15 +314,15 @@ h3{
     row-gap: 48px;
 
 }
-.portfolio-punkt{
-    width:1084;  
-}
+
 .portfolio-div{
     padding: 32px 16px;
     border: 1px;
     border-bottom-style: solid;
     border-bottom-color: #e7e9fc;
     border-top:none;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .portfolio-name{

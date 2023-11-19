@@ -172,12 +172,18 @@ span{
 .benefits-clas{
     padding: 120px 0 120px;
 
-}
 
-.class-benefits{
+}
+.flex{
     display: flex;
     gap: 24px;
     margin-right: 24px;
+}
+
+.class-benefits{
+  
+    width:342px;
+    text-align: center;
 }
 li{
     background-color: #FFFFFF;

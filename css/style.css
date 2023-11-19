@@ -197,6 +197,22 @@ li{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+}
+.benefits-sp{
+    display: flex;
+    gap:24px;
+    margin-right: 24px;
+
+}
+.class-benefits{
+    width: 807px;
+    text-align: center;
+}
+
+.benefits-title{
+    margin-bottom: 8px;
+
 }
 h3{
     font-weight: 500;
@@ -218,6 +234,9 @@ p{
 
 .team{
     background-color: #F4F4FD;
+}
+.class-sp{
+    width: 807px;
 }
 
 .title-team{
@@ -296,6 +315,10 @@ h3{
     padding-right: 0;
     
 
+}
+
+.portfolio-sp{
+    width: 807px;
 }
 .title-portfolio-max{
     margin-bottom: 72px;

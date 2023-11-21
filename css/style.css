@@ -53,12 +53,11 @@ body{
 
 
 .link{
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase ;
+
     color: #4d5ae5;
 }
 span{
@@ -82,6 +81,8 @@ span{
     padding-left: 15px;
     padding-right: 15px;
     border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+
 
 
 }
@@ -89,12 +90,15 @@ span{
 .nav-div{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .menu{
     display: flex;
     gap: 40px;
-    margin-right: 40px;
+    margin-right: auto;
+ 
+   
 }
 
 .nav-text{
@@ -104,7 +108,8 @@ span{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding:24px 0 24px;
-   
+    display: block ;
+    
 }
 .nav-text:hover{
     color: #404bbf;
@@ -143,6 +148,10 @@ span{
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    
 
 }
 .button-main{
@@ -160,6 +169,8 @@ span{
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .button-main:hover{
@@ -201,12 +212,11 @@ li{
 .benefits-sp{
     display: flex;
     gap:24px;
-    margin-right: 24px;
+
 
 }
 .class-benefits{
-    width: 271.5px;
-    text-align: center;
+ 
 }
 
 .benefits-title{
@@ -253,7 +263,6 @@ width: calc((100% - 72px)/4)
 .class-team{
     display: flex;
     gap: 24px;
-    margin-right: 24px;
 }
 
 .team-div{
@@ -275,7 +284,7 @@ width: calc((100% - 72px)/4)
     line-height: 1.5;
     letter-spacing:0.02em;
     color: #434455;
-    text-align: center;
+  
 
 }
 
@@ -322,11 +331,17 @@ h3{
 .title-portfolio-max{
     margin-bottom: 72px;
     text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 .title-portfolio{
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -349,8 +364,9 @@ h3{
     border-bottom-style: solid;
     border-bottom-color: #e7e9fc;
     border-top:none;
-    margin-bottom: 8px;
-    text-align: center;
+    border-left: none;
+    border-right:none ;
+    border-bottom: none;
 }
 
 .portfolio-name{
@@ -389,12 +405,12 @@ h3{
     color: #4d5ae5;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 
 
 }
 .nav-logo{
     color: #f4f4fd;
+    margin-bottom: 16px;
 
 }
 .futer-paragraf{

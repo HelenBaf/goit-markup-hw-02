@@ -182,8 +182,8 @@ span{
 
 .class-benefits{
   
-    width:342px;
-    text-align: center;
+    width: calc((100% - 72px)/4);
+    text-align:center;
 }
 li{
     background-color: #FFFFFF;

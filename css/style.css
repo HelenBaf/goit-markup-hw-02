@@ -129,7 +129,6 @@ span{
     letter-spacing: 0.02em;
     color: #434455;
     gap: 40px;
-    margin-right: 40px;
 }
 .nav-contact:hover{
     color: #404bbf;
@@ -199,7 +198,6 @@ span{
 }
 li{
     background-color: #FFFFFF;
-    width:342px;
     border-radius: 0px 0px 4px 4px;
 }
 

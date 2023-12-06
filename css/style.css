@@ -238,6 +238,7 @@ span{
 li{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 
 .benefits{
@@ -325,6 +326,7 @@ box-shadow:s 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 .team-insta{
     width: 40px;
     height: 40px;
+    background-color:250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 .team-ikon-inst{
@@ -338,12 +340,15 @@ box-shadow:s 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 }
 .team-ikon-inst:hover{
     background-color: #404bbf;
+  
 }
 .team-ikon-inst:focus{
     background-color: #404bbf;
 }
 .svg-team{
     fill: #f4f4fd;
+    width: 16;
+    height: 16;
 
 }
 
@@ -413,10 +418,12 @@ h3{
 
 .portfolio-sp{
     width: calc((100% - 48px)/3);
-    transition:cubic-bezier(0.4,0,0.2,1)
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.portfolio-sp:hover
+.portfolio-sp:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
     
 .title-portfolio-max{
     margin-bottom: 72px;
